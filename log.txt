@@ -1,0 +1,107 @@
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:\Users\lisan\Documents\Repositorios\TC\TP04\FilterTool\FilterTool\FilterTool.py", line 431, in on_current_approx_changed
+    self.update_composition()
+  File "C:\Users\lisan\Documents\Repositorios\TC\TP04\FilterTool\FilterTool\FilterTool.py", line 604, in update_composition
+    for stage in self.currentApproximation.stages_2:
+AttributeError: 'NoneType' object has no attribute 'stages_2'
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 407, in on_current_approx_changed
+    stage.plot_s_plane_to_figure(self.stafe_figure)
+AttributeError: 'FilterTool' object has no attribute 'stafe_figure'
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 433, in on_current_stage_plot_type_changed
+    stage.plot_transfer()
+AttributeError: 'Stage2' object has no attribute 'plot_transfer'
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 432, in on_current_stage_plot_type_changed
+    self.current_stage.plot_transfer_to_figure(self.stage_figure)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\Stage2.py", line 119, in plot_transfer_to_figure
+    axes.semilogx(w, mag, label=legend)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\venv\lib\site-packages\matplotlib\axes\_axes.py", line 1848, in semilogx
+    self.set_xscale('log', **d)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\venv\lib\site-packages\matplotlib\projections\polar.py", line 1375, in set_xscale
+    "You can not set the xscale on a polar plot.")
+NotImplementedError: You can not set the xscale on a polar plot.
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 432, in on_current_stage_plot_type_changed
+    self.current_stage.plot_transfer_to_figure(self.stage_figure)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\Stage2.py", line 119, in plot_transfer_to_figure
+    axes.semilogx(w, mag, label=legend)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\venv\lib\site-packages\matplotlib\axes\_axes.py", line 1848, in semilogx
+    self.set_xscale('log', **d)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\venv\lib\site-packages\matplotlib\projections\polar.py", line 1375, in set_xscale
+    "You can not set the xscale on a polar plot.")
+NotImplementedError: You can not set the xscale on a polar plot.
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 432, in on_current_stage_plot_type_changed
+    self.current_stage.plot_transfer_to_figure(self.stage_figure)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\Stage2.py", line 117, in plot_transfer_to_figure
+    axes.semilogx(w, mag, label=legend)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\venv\lib\site-packages\matplotlib\axes\_axes.py", line 1848, in semilogx
+    self.set_xscale('log', **d)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\venv\lib\site-packages\matplotlib\projections\polar.py", line 1375, in set_xscale
+    "You can not set the xscale on a polar plot.")
+NotImplementedError: You can not set the xscale on a polar plot.
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 621, in on_remove_stage
+    self.currentApproximation.stages_2.remove(self.current_stage)
+ValueError: list.remove(x): x not in list
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 453, in on_current_stage_changed
+    self.current_stage = self.currentApproximation.stages_2[index]
+AttributeError: 'NoneType' object has no attribute 'stages_2'
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 525, in on_remove_stage_zero
+    self.current_stage.plot_s_plane(self.stage_figure)
+AttributeError: 'Stage2' object has no attribute 'plot_s_plane'
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 537, in on_add_pole
+    self.current_stage.plot_s_plane(self.stage_figure)
+AttributeError: 'Stage2' object has no attribute 'plot_s_plane'
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 537, in on_add_pole
+    self.current_stage.plot_s_plane(self.stage_figure)
+AttributeError: 'Stage2' object has no attribute 'plot_s_plane'
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 547, in on_add_pole
+    self.current_stage.plot_s_plane(self.stage_figure)
+AttributeError: 'Stage2' object has no attribute 'plot_s_plane'
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 547, in on_add_pole
+    self.current_stage.plot_s_plane(self.stage_figure)
+AttributeError: 'Stage2' object has no attribute 'plot_s_plane'
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 521, in on_remove_stage_zero
+    self.current_stage.plot_s_plane(self.stage_figure)
+AttributeError: 'Stage2' object has no attribute 'plot_s_plane'
+qt_message_handler: line: 0, func: None(), file: None  WARNING: QWindowsWindow::setGeometry: Unable to set geometry 1920x1084+0+29 (frame: 1938x1131-9-9) on QWidgetWindow/"MainWindowWindow" on "\\.\DISPLAY9". Resulting geometry: 1920x1001+0+29 (frame: 1938x1048-9-9) margins: 9, 38, 9, 9 minimum size: 1326x1084 MINMAXINFO maxSize=0,0 maxpos=0,0 mintrack=1344,1131 maxtrack=0,0)
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 627, in on_preview_clicked
+    approx_type=self.approx_type)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\Approximation.py", line 77, in __init__
+    self.initPoints()
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\Approximation.py", line 711, in initPoints
+    polesGroupBoxes = [GroupBoxPar(self.program.tab_2) for i in range(len(poles))]
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\Approximation.py", line 711, in <listcomp>
+    polesGroupBoxes = [GroupBoxPar(self.program.tab_2) for i in range(len(poles))]
+AttributeError: 'FilterTool' object has no attribute 'tab_2'
+qt_message_handler: line: 0, func: None(), file: None  WARNING: QWindowsWindow::setGeometry: Unable to set geometry 1920x1084+0+29 (frame: 1938x1131-9-9) on QWidgetWindow/"MainWindowWindow" on "\\.\DISPLAY9". Resulting geometry: 1920x1001+0+29 (frame: 1938x1048-9-9) margins: 9, 38, 9, 9 minimum size: 1326x1084 MINMAXINFO maxSize=0,0 maxpos=0,0 mintrack=1344,1131 maxtrack=0,0)
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 627, in on_preview_clicked
+    approx_type=self.approx_type)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\Approximation.py", line 83, in __init__
+    for radioButton in pair.groupBox.radioButtons:
+AttributeError: 'numpy.complex128' object has no attribute 'groupBox'
+qt_message_handler: line: 0, func: None(), file: None  WARNING: QWindowsWindow::setGeometry: Unable to set geometry 1920x1084+0+29 (frame: 1938x1131-9-9) on QWidgetWindow/"MainWindowWindow" on "\\.\DISPLAY9". Resulting geometry: 1920x1001+0+29 (frame: 1938x1048-9-9) margins: 9, 38, 9, 9 minimum size: 1326x1084 MINMAXINFO maxSize=0,0 maxpos=0,0 mintrack=1344,1131 maxtrack=0,0)
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 627, in on_preview_clicked
+    approx_type=self.approx_type)
+  File "C:\Users\lisan\Documents\Repositorios\FilterTool\Approximation.py", line 83, in __init__
+    for radioButton in pair.groupBox.radioButtons:
+AttributeError: 'numpy.complex128' object has no attribute 'groupBox'
+qt_message_handler: line: 0, func: None(), file: None  WARNING: QWindowsWindow::setGeometry: Unable to set geometry 1920x1084+0+29 (frame: 1938x1131-9-9) on QWidgetWindow/"MainWindowWindow" on "\\.\DISPLAY9". Resulting geometry: 1920x1001+0+29 (frame: 1938x1048-9-9) margins: 9, 38, 9, 9 minimum size: 1326x1084 MINMAXINFO maxSize=0,0 maxpos=0,0 mintrack=1344,1131 maxtrack=0,0)
+qt_message_handler: line: 0, func: None(), file: None  FATAL: Traceback (most recent call last):
+  File "C:/Users/lisan/Documents/Repositorios/FilterTool/FilterTool.py", line 637, in on_preview_clicked
+    self.currentApproxComboBox.setCurrentText(approximation.legend)
+AttributeError: 'FilterTool' object has no attribute 'currentApproxComboBox'
+qt_message_handler: line: 0, func: None(), file: None  WARNING: QWindowsWindow::setGeometry: Unable to set geometry 1920x1084+0+29 (frame: 1938x1131-9-9) on QWidgetWindow/"MainWindowWindow" on "\\.\DISPLAY9". Resulting geometry: 1920x1001+0+29 (frame: 1938x1048-9-9) margins: 9, 38, 9, 9 minimum size: 1326x1084 MINMAXINFO maxSize=0,0 maxpos=0,0 mintrack=1344,1131 maxtrack=0,0)
